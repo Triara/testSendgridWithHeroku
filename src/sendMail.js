@@ -6,11 +6,11 @@ module.exports = callback => {
         from: 'sendgrin@example.com',
         subject: 'Hello World',
         text: 'My first email through SendGrid.'
-    }, (err, json) => {
+    }, (err, result) => {
         if (err) {
             return console.error(err);
         }
-        console.log(json);
+        console.log(result);
         callback();
     });
 };
