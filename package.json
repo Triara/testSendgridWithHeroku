@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --harmony start"
+    "start": "node --harmony ./src/server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "restify": "^3.0.3",
+    "sendgrid": "^1.9.2"
+  }
 }
